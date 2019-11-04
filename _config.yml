@@ -1,0 +1,42 @@
+title: 0init
+author: 0init
+email: mohammedsherif967@gmail.com
+description: > # this means to ignore newlines until "show_exerpts:"
+ A blog for hacking articles and CTF Write-Ups.
+show_excerpts: false # set to true to show excerpts on the homepage
+
+paginate: 1
+paginate_path: "/blog/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+dash:
+  date_format: "%b %-d, %Y"
+
+  disqus:
+    shortname: 0init-github-io
+
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://twitter.com/0Init
+      icon: twitter-square
+      color: cyan
+    - url: https://github.com/init0
+      icon: github-square
+      color: purple
+    - url: https://www.linkedin.com/in/mohammed-sherif-635302183
+      icon: linkedin-square
+      color: blue
+
+# Build settings
+theme: jekyll-dash
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-paginate
+ - liquid-md5
+ - jekyll/tagging
