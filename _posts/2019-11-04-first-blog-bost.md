@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to first blog post!"
+title:  "Welcome to my first blog post!"
 description: this is just for test and for fun too
 tags: first blog
 ---
