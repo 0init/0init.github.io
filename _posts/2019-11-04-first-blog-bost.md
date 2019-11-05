@@ -8,9 +8,9 @@ Well. my name is `Mido` and this is my first blog post which is created with the
 
 > "See ya!"
 >
->   - Mido Norton
+>   - Mido Notron
 
 ![image](/images/00.gif)
 
-**Test 1**
+**Test 1 or '1'='1#**
 
