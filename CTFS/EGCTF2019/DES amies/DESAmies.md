@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "DESAmies is a Cryptography challeng"
-description: writ-up by Abdallah EL-Shinbary 
+title:  "DESAmies is a Cryptography challenge"
+description: write-up by Abdallah EL-Shinbary 
 tags: first blog
 img: /CTFS/EGCTF2019/DES amies/1.png
 ---
