@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DESAmies is a Cryptography challenge"
-description: write-up by Abdallah EL-Shinbary 
+description: write-up by Abdallah EL-Shinbary >> { night-wolf }
 tags: first blog
 img: https://raw.githubusercontent.com/0init/0init.github.io/master/images/1.png
 ---
