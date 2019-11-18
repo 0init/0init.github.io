@@ -8,7 +8,7 @@ img: /CTFS/EGCTF2019/DES amies/1.png
 
 ### First of all we have a network connection that asks	for input and gives us what looks like encrypted message.
 
-![images]("./first.png")
+![images](ttps://raw.githubusercontent.com/0init/0init.github.io/master/images/first.png)
 
 ### It's just that nothing.
 Looking at the challenge name I assume that It's DES encryption and we have to decrypt the message somehow.
@@ -24,7 +24,7 @@ Now that's awesome we just have to try every key and wish it will work.
 After trying the key this one worked and we got this message :)</p>
 Key: 0xFFFFFFFFFFFFFFFF
 
-![images]("./second.png")
+![images](https://raw.githubusercontent.com/0init/0init.github.io/master/images/second.png)
 
 
 ```python
