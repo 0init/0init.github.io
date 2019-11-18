@@ -18,7 +18,7 @@ Hmmmm if there is a strong key then there is a weak key.</p>
 
 After some googling I discovered that DES implementation has some 'weak keys' that if you encrypt with them twice you will get the original message
 
-### "Original" ---enc---> "Encrypted" ---enc---> "Original"</h3>
+### "Original" ---enc---> "Encrypted" ---enc---> "Original"
 
 Now that's awesome we just have to try every key and wish it will work.
 After trying the key this one worked and we got this message :)</p>
@@ -26,7 +26,7 @@ Key: 0xFFFFFFFFFFFFFFFF
 
 <img src="./second.png" >
 
-
+<span style="color:red">
 ```
 from pwn import *
 from des import DesKey<br>
@@ -49,3 +49,4 @@ for k in keys:<br>
 	print(y)<br>
 	print()
 ```
+</span>
