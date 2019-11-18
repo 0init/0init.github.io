@@ -1,10 +1,4 @@
-<html>
-<head> 
-<title>
-DES_amies
-</title>
-</head>
-	<body>
+
 		 ###DESAmies is a Cryptography challeng
 		##writ-up by Abdallah EL-Shinbary 
 		
@@ -56,5 +50,3 @@ for k in keys:<br>
 	y = key.encrypt(s)<br>
 	print(y)<br>
 	print()</p>
-	</body>
-  </html>
