@@ -20,15 +20,15 @@ After some googling I discovered that DES implementation has some 'weak keys' th
 
 ### "Original" ---enc---> "Encrypted" ---enc---> "Original"</h3>
 
-		<p>Now that's awesome we just have to try every key and wish it will work.</p>
-		<p>After trying the key this one worked and we got this message :)</p>
-		<p>Key: 0xFFFFFFFFFFFFFFFF</p>
+Now that's awesome we just have to try every key and wish it will work.
+After trying the key this one worked and we got this message :)</p>
+Key: 0xFFFFFFFFFFFFFFFF
 
 <img src="./second.png" >
 
 
 
-<p>from pwn import *<br>
+from pwn import *
 from des import DesKey<br>
 <br>
 conn = remote('167.71.93.117', 9000)<br>
