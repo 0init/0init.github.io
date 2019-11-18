@@ -6,18 +6,19 @@ tags: first blog
 img: /CTFS/EGCTF2019/DES amies/1.png
 ---
 
-<p>First of all we have a network connection that asks	for input and gives us what looks like encrypted message. </p>
+### First of all we have a network connection that asks	for input and gives us what looks like encrypted message.
 
 <img src="./first.png" >
 
-		<h3>It's just that nothing.</h3>
-<p>Looking at the challenge name I assume that It's DES encryption and we have to decrypt the message somehow.</p>
+### It's just that nothing.
+Looking at the challenge name I assume that It's DES encryption and we have to decrypt the message somehow.
 
-		<p>Honestly I wasn't able to solve it without the hint which says "Strong key".</p>
-		<p>Hmmmm if there is a strong key then there is a weak key.</p>
+Honestly I wasn't able to solve it without the hint which says "Strong key".</p>
+Hmmmm if there is a strong key then there is a weak key.</p>
 
-<p>After some googling I discovered that DES implementation has some 'weak keys' that if you encrypt with them twice you will get the original message<p>
-		<h3>"Original" ---enc---> "Encrypted" ---enc---> "Original"</h3>
+After some googling I discovered that DES implementation has some 'weak keys' that if you encrypt with them twice you will get the original message
+
+### "Original" ---enc---> "Encrypted" ---enc---> "Original"</h3>
 
 		<p>Now that's awesome we just have to try every key and wish it will work.</p>
 		<p>After trying the key this one worked and we got this message :)</p>
