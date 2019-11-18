@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "DESAmies is a Cryptography challeng"
-description: writ-up by Abdallah EL-Shinbary 
+title:  "DESAmies is a Cryptography challenge"
+description: write-up by Abdallah EL-Shinbary 
 tags: first blog
-img: /CTFS/EGCTF2019/DES amies/1.png
+img: https://raw.githubusercontent.com/0init/0init.github.io/master/images/1.png
 ---
 
 ### First of all we have a network connection that asks	for input and gives us what looks like encrypted message.
 
-![images](ttps://raw.githubusercontent.com/0init/0init.github.io/master/images/first.png)
+![images](https://raw.githubusercontent.com/0init/0init.github.io/master/images/first.png)
 
 ### It's just that nothing.
 Looking at the challenge name I assume that It's DES encryption and we have to decrypt the message somehow.
