@@ -3,9 +3,8 @@ layout: post
 title:  "DESAmies is a Cryptography challeng"
 description: writ-up by Abdallah EL-Shinbary 
 tags: first blog
-img: /images/firstblog/02.jpg
+img: /CTFS/EGCTF2019/DES amies/1.png
 ---
-	 ![image](/1.png)
 
 <p>First of all we have a network connection that asks	for input and gives us what looks like encrypted message. </p>
 
