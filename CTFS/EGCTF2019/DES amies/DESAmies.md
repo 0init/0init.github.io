@@ -27,7 +27,7 @@ Key: 0xFFFFFFFFFFFFFFFF
 <img src="./second.png" >
 
 
-
+```
 from pwn import *
 from des import DesKey<br>
 <br>
@@ -36,16 +36,16 @@ conn = remote('167.71.93.117', 9000)<br>
 conn.send('aaaaaaaa')<br>
 x = conn.recvline();<br>
 s = x[41:-1]<br>
-<br>
 keys = [<br>
 	b'\x00\x00\x00\x00\x00\x00\x00\x00',<br>
 	b'\x00\x00\x00\x00\xFF\xFF\xFF\xFF',<br>
 	b'\xFF\xFF\xFF\xFF\x00\x00\x00\x00',<br>
 	b'\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF',<br>
-]<br>
-<br>
+]
+
 for k in keys:<br>
 	key = DesKey(k)<br>
 	y = key.encrypt(s)<br>
 	print(y)<br>
-	print()</p>
+	print()
+```
