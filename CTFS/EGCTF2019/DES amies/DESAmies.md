@@ -1,6 +1,6 @@
 
-		 ###DESAmies is a Cryptography challeng
-		##writ-up by Abdallah EL-Shinbary 
+		DESAmies is a Cryptography challeng
+		writ-up by Abdallah EL-Shinbary 
 		
 		<img src="./1.png" >
 <p>First of all we have a network connection that asks	for input and gives us what looks like encrypted message. </p>
