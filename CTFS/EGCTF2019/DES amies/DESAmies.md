@@ -1,7 +1,10 @@
-
-		DESAmies is a Cryptography challeng
-		writ-up by Abdallah EL-Shinbary 
-		
+---
+layout: post
+title:  "DESAmies is a Cryptography challeng"
+description: writ-up by Abdallah EL-Shinbary 
+tags: first blog
+img: /images/firstblog/02.jpg
+---
 		<img src="./1.png" >
 <p>First of all we have a network connection that asks	for input and gives us what looks like encrypted message. </p>
 
@@ -21,11 +24,6 @@
 		<p>Key: 0xFFFFFFFFFFFFFFFF</p>
 
 <img src="./second.png" >
-
-
-
-
-
 
 
 
