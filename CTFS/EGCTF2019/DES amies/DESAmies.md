@@ -26,7 +26,8 @@ Key: 0xFFFFFFFFFFFFFFFF
 
 <img src="./second.png" >
 
-<span style="color:red">
+<span style="color:green">
+	
 ```
 from pwn import *
 from des import DesKey<br>
@@ -49,4 +50,5 @@ for k in keys:<br>
 	print(y)<br>
 	print()
 ```
+
 </span>
