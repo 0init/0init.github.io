@@ -5,27 +5,27 @@ description: write-up by Mohamed Labib >> { Uzomaki }
 tags: first blog
 ---
 
-###getting-started is an easy reverse engineering challenge .
-###as it is a good challenge to get into the reverse engineering world. 
+### getting-started is an easy reverse engineering challenge .
+### as it is a good challenge to get into the reverse engineering world. 
 
 ![images](https://raw.githubusercontent.com/0init/0init.github.io/master/images/test/1.png)
 
-###it doesn't require a huge knowledge by reverse. 
+### it doesn't require a huge knowledge by reverse. 
 
 
-##we can solve it in many ways . 
+## we can solve it in many ways . 
 
 
-#first way : 
-##after downloading the file you'll get this 
+# first way : 
+## after downloading the file you'll get this 
 
 ![images](https://raw.githubusercontent.com/0init/0init.github.io/master/images/test/2.png)
 
 let's try to run it . 
 
-![images](https://raw.githubusercontent.com/0init/0init.github.io/master/images/test/3.png)
+![images](https://raw.githubusercontent.com/0init/0init.github.io/master/images/test/3.png.png)
 
-###we got this output " flag{ " and nothing else . 
+### we got this output " flag{ " and nothing else . 
 
 lets try an easy way so we may get the flag . 
 
@@ -41,7 +41,7 @@ after using [file getting-started] we get this output .
 
 ![images](https://raw.githubusercontent.com/0init/0init.github.io/master/images/test/4.png)
 
-#the important part is the highlighted one, which telling us that the file is ELF32 .
+# the important part is the highlighted one, which telling us that the file is ELF32 .
 
 but what is the the ELF ? 
 
