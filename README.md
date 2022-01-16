@@ -1,1 +1,1 @@
-**Blog**: https://0init.github.io/blog/
+**Blog**: https://0init.github.io/
