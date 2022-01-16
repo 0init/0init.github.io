@@ -2,7 +2,7 @@ title: 0init
 author: 0init
 email: mohammedsherif967@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
- A blog for hacking articles and CTF Write-Ups.
+ A blog for hacking articles and CTF Write-Ups..
 show_excerpts: false # set to true to show excerpts on the homepage
 
 paginate: 1
