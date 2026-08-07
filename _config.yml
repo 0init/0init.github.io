@@ -32,9 +32,10 @@ dash:
       color: blue
 
 # Build settings
-theme: jekyll-dash
+remote_theme: bitbrain/jekyll-dash
 
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-paginate
+ - jekyll-remote-theme
